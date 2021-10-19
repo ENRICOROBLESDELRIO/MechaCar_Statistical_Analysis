@@ -15,7 +15,7 @@ Statistical analysis with R
 - Pr(>|t|) is less than 0.05 of assumed significance level.
 
 Multiple linear statistical metrics:
-![exhibit_1](./resources/exhibit_1.png)
+![exhibit_1](./Resources/exhibit_1.png)
 
 ### ii. Is the slope of the linear model considered to be zero? Why or why not?
 
@@ -26,7 +26,7 @@ As was mentioned before since our p-value is less than 0.05 of the assumed signi
 Even that the R-squared is 0.7149, using the correlation matrix it can be appreciated that one variable seems to be generating possible overfitting to the model (vehicle length), and the lack of significant variables could show evidence of overfitting as well. Meaning that the performance of this model works well with the current dataset, but fails to generalize and predict future data correctly.
 
 Correlation Matrix:
-![exhibit_2](./resources/exhibit_2.png)
+![exhibit_2](./Resources/exhibit_2.png)
 
 ## Summary Statistics on Suspension Coils
 
@@ -34,21 +34,21 @@ Correlation Matrix:
 
 - As it can be seen in the following table variance with ~62.3 and standard deviation of ~ 7.9 indicates that the requested figures for quality controls do not exceed the 100 pounds per square inch from all the manufacturing lots:
 
-![exhibit_3](./resources/exhibit_3.png)
+![exhibit_3](./Resources/exhibit_3.png)
 
 - But as we deep dive between manufacturing lots, we can find that lot number three actually presents a variance above the 100/inch requested, so this indicates that lot #3 presents a strong variance that affects the total summary statistics:
 
-![exhibit_4](./resources/exhibit_4.png)
+![exhibit_4](./Resources/exhibit_4.png)
 
 ## T-Tests on Suspension Coils
 
 - Starting with the total data set assuming the significance level was the common 0.05 percent, our p-value (0.06) is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 
-![exhibit_5](./resources/exhibit_5.png)
+![exhibit_5](./Resources/exhibit_5.png)
 
 As well for the manufacturing lots number 1 and 2, p-value (1 and 0.6072) is above our significance level, meaning that there is not sufficient evidence to reject the null hypothesis, and the two means are statistically similar.
 
-![exhibit_6](./resources/exhibit_6.png)
+![exhibit_6](./Resources/exhibit_6.png)
 
 Finally, lot number three, with a p-value of 0.04168, is below the significance level, with means that it is possible to reject the null hypothesis showing that means are not statistically similar.
 
